@@ -28,3 +28,14 @@ Primeira aula mais teórica, introdutória.
 
 #HTML = HyperText Markup Language.
 
+#Aula 2 | HTML5
+
+- Elementos semânticos: Section, nav, div e footer;
+- Ícones;
+- Links;
+- Tabelas;
+- Imagens;
+- Entidades;
+- Forms;
+- Botões.
+
