@@ -4,11 +4,12 @@
     <meta charset="UTF-8"> <!--Leitura de caracteres-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--visualização da tela no navegar, ajuste que permite o usuário visualizar a página-->
     <title>Amanda Gregório  |  Desenvolvedora Front-end</title>
+    <link rel="stylesheet" href="style.css" /> <!--Conexão com o arquivo CSS-->
   </head>
   <body>
-    <header>
+    <header class="navbar">
       <nav>
-        <ul>
+        <ul class="nav-list">
           <li><a href="#">Início</a></li><!--a # indica que a navegação será na própria página, autoreferência, não vai apra nenhuma outra página-->
           <li><a href="#formacoes">Formações</a></li>
           <li><a href="#sobre">Sobre</a></li>
@@ -16,12 +17,13 @@
         </ul>
       </nav>
     </header>
-    <main>
-      <section>
-        <div>
-          <article>
+    <!--Conteúdo principal da página-->
+    <main class="container-principal">
+      <section class="secao-principal" id="inicio">
+        <div class="hero-content">
+          <article class="hero-text">
             <h1>Amanda Gregório, <br />Desenvolvedora<span> Front-end</span></h1>   
-            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam qui adipisci provident sequi voluptates nesciunt cupiditate quo minus autem natus et sit nulla aliquid id, atque delectus quod numquam facilis?
+            <p class="hero-paragraph"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam qui adipisci provident sequi voluptates nesciunt cupiditate quo minus autem natus et sit nulla aliquid id, atque delectus quod numquam facilis?
             </p>   
           </article>
         </div>

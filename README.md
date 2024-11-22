@@ -3,32 +3,32 @@ Repositório criado para o armazenamento do conteúdo desenvolvido  durante as a
 
 Por Natália Peixoto.
 
-Iniciamos a aula ocm uma atividade: pensar como estamos nos sentindo.
+Iniciamos a aula com uma atividade: pensar como estamos nos sentindo.
 Definir em uma palavra que reflita o que estamos sentindo nesse momento do curso.
 Minha palavra: Animada.
 
 Primeira aula mais teórica, introdutória.
 
-#Nosso projeto
+# Nosso projeto
 
 - Portifólio;
 - Repositório;
 - Apostila HTML;
 - Apostila CSS.
 
-##Ferramentas:
+## Ferramentas:
 - Figma;
 - VS Code.
 
-#Aula 1 | HTML 5 - Introdução
+# Aula 1 | HTML 5 - Introdução
 - Tags;
 - Estrutura;
 - Boas práticas: indentação, comentários, semântica;
 - Textos: níveis de títulos, parágrafos, quebra de linha, formatação de texto.
 
-#HTML = HyperText Markup Language.
+## HTML = HyperText Markup Language.
 
-#Aula 2 | HTML5
+# Aula 2 | HTML5
 
 - Elementos semânticos: Section, nav, div e footer;
 - Ícones;
@@ -39,3 +39,11 @@ Primeira aula mais teórica, introdutória.
 - Forms;
 - Botões.
 
+# Aula 3 | CSS
+- Introdução;
+- CSS inline, interno e externo;
+- Sintaxe básica: identificadores e classes;
+- Sistemas de cores;
+- Medidas absolutas;
+- Alinhamento;
+- Fontes.
