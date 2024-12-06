@@ -4,7 +4,8 @@
     <meta charset="UTF-8"> <!--Leitura de caracteres-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--visualização da tela no navegar, ajuste que permite o usuário visualizar a página-->
     <title>Amanda Gregório  |  Desenvolvedora Front-end</title>
-    <link rel="stylesheet" href="style.css" /> <!--Conexão com o arquivo CSS-->
+    <link rel="stylesheet" href="style.css"> <!--Conexão com o arquivo CSS-->
+    <script src="http://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
   </head>
   <body>
     <header class="navbar">
@@ -22,12 +23,110 @@
       <section class="secao-principal" id="inicio">
         <div class="hero-content">
           <article class="hero-text">
-            <h1>Amanda Gregório, <br />Desenvolvedora<span> Front-end</span></h1>   
+            <h1>Natália Peixoto, <br />Desenvolvedora<span> Front-end</span></h1>   
             <p class="hero-paragraph"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam qui adipisci provident sequi voluptates nesciunt cupiditate quo minus autem natus et sit nulla aliquid id, atque delectus quod numquam facilis?
-            </p>   
+            </p> 
+            <div> 
+              <a href="a" class= "btn linkedin"> Linkedin </a>
+              <a href="a" class= "btn github"> Github </a>
+            </div>        
           </article>
+          <figure class="hero-image"> 
+            <!--Incluir caminho da imagem-->
+            <img src="/portifolio/img/undraw_fitting_piece_re_pxay 1.svg" alt=" Ilustração de desenvolvedora trabalhando">
+          </figure>
         </div>
       </section>
     </main>
-  </body>
-</html>
+
+
+
+    <section class="formacoes-section" id="formacoes">
+      <h2> Minhas Formações</h2>
+      <ul class = "formacoes-list">
+        <li class = "formacoes-item">
+          <article>
+            <h3> Analista de Qualidade de Software</h3>
+            <p> Muralis Tecnologia - Mogi das Cruzes, SP</p>
+          </article>
+          <span class="formacao-data">Maio 2022 - Atualmente</span>
+        </li>
+        <li class = "formacoes-item">
+          <article>
+            <h3> Desenvolvedora Front-end e UI UX Designer</h3>
+            <p> Empresa de Tech LTDA - Rio de Janeiro, RJ</p>
+          </article>
+          <span class="formacao-data">Setembro 2021 - Dezembro 2022</span>
+        </li>
+        <li class = "formacoes-item">
+          <article>
+            <h3> Iluminadora Cênica </h3>
+            <p> Teatros e Casas de Shows  - Brasil, BR </p>
+          </article>
+          <span class="formacao-data">Setembro 2011 - Atualmente</span>
+        </li>
+      </ul> 
+    </section>
+
+    <section class="sobre-mim-section" id="sobre">
+      <div class=" sobre-mim-content">
+        <figure class="sobre-mim-image">
+          <!--Incluir caminho da imagem-->
+          <img src="/portifolio/img/avatar 1.svg" alt="Avatar da Desenvolvedora">
+        </figure>
+        <article class="sobre-mim-text"> 
+          <h2 class = "texto"> Sobre mim</h2>
+          <p class="texto"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia soluta culpa sint dicta nulla hic debitis unde. Tenetur, provident recusandae aperiam maxime, repellendus deserunt, vero possimus impedit beatae cum ipsa?</p>
+          <p class="texto">Sit turpis pretium eget maecenas. Vestibulum dolor mattis consectetur eget commodo vitae. Amet pellentesque sit pulvinar lorem mi a, euismod risus r.</p>
+      </div> 
+    </section>
+
+    <section class="formacoes-section" id="projetos">
+      <h2> Meus Projetos</h2>
+      <ul class = "formacoes-list">
+        <li class = "formacoes-item">
+          <article>
+            <h3> Calculadora</h3>
+            <p> Projeto de criação de uma calculadora.</p>
+            <!--Substituir pelo link-->
+            <p><a href="#">Link do projeto</a></p> 
+          </article>
+        </li>
+        <li class = "formacoes-item">
+          <article>
+            <h3> Calculadora</h3>
+            <p> Projeto de criação de uma calculadora.</p>
+            <!--Substituir pelo link-->
+            <p><a href="#">Link do projeto</a></p> 
+        </li>
+        <li class = "formacoes-item">
+          <article>
+            <h3> Calculadora</h3>
+            <p> Projeto de criação de uma calculadora.</p>
+            <!--Substituir pelo link-->
+            <p><a href="#">Link do projeto</a></p> 
+        </li>
+      </ul> 
+    </section>
+    <footer>
+      <div class="container">
+        <ul id="contato" class="lista-rodape">
+          <li>
+            <i class="fas fa-envelope-square estilo-icone"></i> email@email.com
+          </li>
+          <li> 
+            <a class="redes-sociais" href ="#" target="_blank">
+              <i class="fab fa-linkedin estilo-icone"></i>@nome-usuario
+            </a>  
+          </li>
+          <li> 
+            <a class="redes-sociais" href ="#" target="_blank">
+              <i class="fab fa-github-square  estilo-icone"></i>@nome-usuario
+            </a>  
+          </li>  
+       </ul>
+      </div>
+      <p class="direitos">&copy; 2024 Todos os direitos reservados</p>
+    </footer>
+   </body>
+  </html>
